@@ -18,16 +18,16 @@
 		<PackageProjectUrl>https://www.balsamresearch.com/backtester/</PackageProjectUrl>
 		<PackageTags>Balsam Research backtest trading financial markets</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageIcon>BalsamLogo.png</PackageIcon>
+		<PackageIcon>Balsam_128px.png</PackageIcon>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/BalsamResearch/balsam-common</RepositoryUrl>
 		<ProduceReferenceAssembly>True</ProduceReferenceAssembly>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\BalsamLogo.png">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
+		<None Include="..\Balsam_128px.png">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
 		</None>
 		<None Include="README.md">
 			<Pack>True</Pack>
