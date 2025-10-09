@@ -10,8 +10,8 @@
 		<Authors>Balsam Research, LLC</Authors>
 		<Copyright>Copyright © 2007-2025 Balsam Research, LLC</Copyright>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
-		<FileVersion>1.1.2</FileVersion>
-		<PackageVersion>1.1.2</PackageVersion>
+		<FileVersion>1.2.0</FileVersion>
+		<PackageVersion>1.2.0</PackageVersion>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<PackageId>Balsam.Common</PackageId>
 		<PackageOutputPath>$(SolutionDir)\nupkg</PackageOutputPath>
