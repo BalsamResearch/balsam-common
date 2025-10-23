@@ -60,6 +60,11 @@ namespace Balsam
         string Path { get; }
 
         /// <summary>
+        /// Gets the type of series represented by this data item.
+        /// </summary>
+        Type SeriesType { get; }
+
+        /// <summary>
         /// Gets the last write time of the data item in UTC format.
         /// </summary>
         DateTime LastWriteTimeUtc { get; }
