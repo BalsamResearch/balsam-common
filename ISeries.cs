@@ -30,7 +30,8 @@ namespace Balsam
     /// </summary>
     public interface ISeries
     {
-        #region  Properties
+        #region Properties
+
         /// <summary>
         /// Gets/sets the symbol.
         /// </summary>
@@ -147,6 +148,14 @@ namespace Balsam
         /// </summary>
         /// <returns></returns>
         ISeries Clone();
+
+        /// <summary>
+        /// Returns a subset of this series between the specified start and end dates inclusive.
+        /// </summary>
+        /// <param name="startDate"></param>
+        /// <param name="endDate"></param>
+        /// <returns></returns>
+        ISeries Subset(DateTime startDate, DateTime endDate);
 
         #endregion
     }
