@@ -42,13 +42,6 @@ namespace Balsam
         IEnumerable<string> GetSymbols();
 
         /// <summary>
-        /// Loads all available data for the specified symbol.
-        /// </summary>
-        /// <param name="symbol"></param>
-        /// <returns></returns>
-        ISeries LoadSymbol(string symbol);
-
-        /// <summary>
         /// Loads data for the specified symbol between the specified start and end dates inclusive.
         /// </summary>
         /// <param name="symbol"></param>
